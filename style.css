@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
- div.main {
+ div.main, .item-wrapper, .form-wrapper {
 
     min-height: calc(100vh - 200px);
     width: 100%;
@@ -116,5 +116,115 @@ footer img {
     font-size: larger;
     color: rgb(33, 33, 57); 
 }
+
+.buttons img {
+    width: 30px;
+    height: 30px;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+    object-fit: none;
+}
+
+.item-wrapper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-description {
+    color: rgb(33, 33, 57);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(136, 3, 96);
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.go-back {
+    background-color:rgb(136, 3, 96);
+    color: rgb(170, 170, 220);
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Nova Oval";
+}
+
+.go-back:hover {
+    background-color: rgb(170, 170, 220);
+    color: rgb(136, 3, 96); 
+    transition: 0,5s;
+    box-shadow: 3px 3px rgb(203, 202, 202);
+
+}
+
+.trash-button {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.trash-button:hover {
+ box-shadow: 3px 3px rgb(203, 202, 202);
+ background-color: rgb(170, 170, 220);
+
+}
+
+.success-message {
+    font-size: 25px;
+    color: rgb(5, 45, 5);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin: 50px;
+
+}
+
+input, .form button {
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: rgb(16, 16, 90);
+    font-family: "Nova Oval";
+    color: rgb(16, 16, 90) ;
+}
+
+.form button {
+    background-color:rgb(136, 3, 96);
+    color: rgb(170, 170, 220);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Nova Oval";
+}
+
+.form button:hover {
+    background-color: rgb(170, 170, 220);
+    color: rgb(136, 3, 96); 
+    transition: 0,5s;
+    box-shadow: 3px 3px rgb(203, 202, 202);
+}
+
+
+
 
 
