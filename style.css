@@ -122,10 +122,11 @@ footer img {
     height: 30px;
 }
 
-.image {
+div .image {
     width: 350px;
     height: 350px;
-    object-fit: none;
+    background-position: center;
+    background-size: cover;
 }
 
 .item-wrapper {
