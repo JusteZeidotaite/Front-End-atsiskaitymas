@@ -18,9 +18,7 @@ const addNewItem = (newItem) => {
       const successMessage = document.getElementById("success-message");
       successMessage.innerHTML = "New item added";
 
-      setTimeout(() => {
-        window.location.replace("./index.html");
-      }, 1000);
+    
     });
 };
 

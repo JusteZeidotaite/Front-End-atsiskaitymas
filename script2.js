@@ -55,3 +55,4 @@ const deleteItem = () => {
     trashBin.addEventListener("click", () => {
       deleteItem();
       });
+
